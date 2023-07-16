@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Semana Santa Tobarra</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">Tobarra</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/about.html" class="nav-link">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/services.html" class="nav-link">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/blog.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="./pages/contact.html" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--carousel-->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/grandes/SliderSemanaSanta.webp" class="d-block w-100" alt="Tamborileros">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tamborileros</h5>
+            <p>Tambores tipicos de Tobarra</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/grandes/Tamborada_de_Tobarra.jpg" class="d-block w-100" alt="Tamborada">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Tamborada 2023</h5>
+            <p>Tamborileros en la 31 edicion de la Tamborada Nacional</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/grandes/VIERNES_SANTO_TOBARRA.jpg" class="d-block w-100" alt="Viernes santo">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Procesion Viernes Santo</h5>
+            <p>Bendición desde el Calvario de Tobarra</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!---- ICON SECTION-->
+    <section id="home-icons" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cog fa-3x mb-2"></i>
+            <h3>¿Como funciona?</h3>
+            <p>
+           Muy sencillo... nos tiramos 104 horas sin parar de tocar el tambor!
+            </p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cloud fa-3x mb-2"></i>
+            <h3>Nuestros Datos</h3>
+            <p>Mas de 15.000 asistentes en la Semana Santa y mas de 30000 personas en la Tamborada
+             
+            </p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+            <i class="fas fa-cart-plus fa-3x mb-2"></i>
+            <h3>Productos Propios</h3>
+            <p>
+              Panecillos dulces, Moje, Gazpacho Manchego,....
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--- HEADING SECTION-->
+    <section  class="ready" id="home-heading" class="p-5">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="col">
+            <div class="container pt-5">
+              <h1>Estas preparado?</h1>
+              <p class="d-none d-md-block">
+                La Semana Santa de Tobarra es un acontecimiento unico donde la unión de tambores y procesiones la hacen inigualable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---INFO SECTION-->
+
+    <section id="info" class="py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <h3>Procesiones </h3>
+            <p>
+              Todos los tronos son portados a hombros por los "agarráores" o "agarráoras", siempre en todas las procesiones al paso de las bandas de música o agrupaciones musicales que acompañan a cada hermandad respectivamente, ya sea paso lento o más alegre dependiendo del día.
+            </p>
+            <a href="./assets/img/grandes/VIERNES_SANTO_TOBARRA.jpg" target="_blank" class="btn btn-outline-danger btn-lg"
+              >Saber más</a
+            >
+          </div>
+          <div class="col-md-6">
+            <img src="./assets/img/pequeñas/descarga4.jpeg" alt="" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----VIDEO-->
+
+    <section class="video" id="video-play" >
+      <div class="dark">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col text-center text-white">
+              <a
+                href="https://youtu.be/uPXUWAzBTuc"
+                class="video_d" target="_blank"
+                data-video="https://youtu.be/uPXUWAzBTuc"
+                data-toggle="modal"
+                data-target="#videoModal"
+              >
+                <i class="fas fa-play fa-3x"></i>
+              </a>
+              <h1>Tienes que verlo y oirlo!</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---PHOTOGALLERY-->
+    <section class="bg-light py-4 my-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <h2 class="mb-3 text-primary">Galeria de Fotos</h2>
+              </div>
+  
+              <div class="col-md-6 col-lg-4">
+                  <div class="card my-3">
+  
+                      <img src="./assets/img/pequeñas/images (21).jpeg" class="card-image-top" alt="thumbnail">
+  
+                      <div class="card-body">
+                          <h3 class="card-title"><a href="#" class="text-secondary">Tamborileros</a></h3>
+                          <p class="card-text">Durante 104 horas los tamborileros de Tobarra estan continuamente tocando el tambor. No se puede tocar el tambor hasta Miercoles Santo con el acto de la Tamborada y no se deja de oir los tambores hasta las 12 horas de la media noche del Domingo. En ese momento se toca en una cuenta atras el  silencio de tambores y se escucha el himno de Tobarra. </p>
+                          <a href="#" class="btn btn-primary">Saber más</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col-md-6 col-lg-4">
+                  <div class="card my-3">
+  
+                      <img src="./assets/img/pequeñas/descarga7.jpeg"  class="card-image-top" alt="thumbnail">
+  
+                      <div class="card-body">
+                          <h3 class="card-title"><a href="#" class="text-secondary">Iglesia de la Asunción</a></h3>
+                          <p class="card-text">Templo construido entre 1546 y 1616, de estilo renacentista español, en el que, partiendo de una planta gótica (cabecera poligonal y contrafuertes), los soportes son clásicos, con medias columnas con retropilastra que presentan excesiva altura hasta alcanzar la pequeña imposta que recorre todo el edificio a la altura del arranque de las nervaduras góticas de las bóvedas.</p>
+                          <a href="https://es.wikipedia.org/wiki/Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Asunci%C3%B3n_(Tobarra)" class="btn btn-primary">Saber más</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col-md-6 col-lg-4">
+                  <div class="card my-3">
+  
+                      <img src="./assets/img/pequeñas/images (10).jpeg"  class="card-image-top" alt="thumbnail">
+                      <div class="card-body">
+                          <h3 class="card-title"><a href="#" class="text-secondary">Procesion de Viernes Santo</a></h3>
+                          <p class="card-text">La Bendición de Nuestro Padre Jesús en la mañana del Viernes Santo es el momento cumbre de la Semana Santa Tobarreña, miles de personas vienen exclusivamente para contemplar el instante en que los tambores callan a la vez al toque de silencio y la mano articulada de Nuestro Padre Jesús bendice a los cuatro puntos cardinales en el Monte Calvario. </p>
+                          <a href="#" class="btn btn-primary">Saber más</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col-md-6 col-lg-4">
+                  <div class="card my-3">
+                      <img src="./assets/img/pequeñas/images_4.jpeg"  class="card-image-top" alt="thumbnail">
+                      <div class="card-body">
+                          <h3 class="card-title"><a href="#" class="text-secondary">Bajada del Paso Gordo</a></h3>
+                          <p class="card-text">Desde la Ermita de la Encarnación, donde se guarda todo el año, el Paso Gordo baja hasta la Plaza de España para incorporarse a la Procesión de Jueves Santo. Lo empinado de las cuestas convierte esta bajada en un espectáculo impresionante e indescriptible.</p>
+                          <a href="#" class="btn btn-primary">Saber más</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col-md-6 col-lg-4">
+                  <div class="card my-3">
+  
+                      <img src="./assets/img/grandes/santacecilia.jpg"  class="card-image-top" alt="thumbnail">
+                      <div class="card-body">
+                          <h3 class="card-title"><a href="https://www.facebook.com/SCeciliaTobarra/photos/pb.100047634974091.-2207520000./3114248202157375/?type=3" class="text-secondary">Union Musical Santa Cecilia</a></h3>
+                          <p class="card-text">En la actualidad la banda está formada por unos 110 componentes, siendo numerosas las actuaciones que realizan a lo largo del año. También ha ganado numerosos premios quedando entre ellos el primer puesto en la entrada de bandas ciudad de Almansa. Esta banda de música centenaria con un trabajo discográfico titulado "Viernes Santo en Tobarra" del director de la Banda y compositor Pedro Gil Lerín.,</p>
+                          <a href="#" class="btn btn-primary">Read More</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col-md-6 col-lg-4">
+                  <div class="card my-3">
+  
+                      <img src="./assets/img/pequeñas/descarga4.jpeg"  class="card-image-top" alt="thumbnail">
+  
+                      <div class="card-body">
+                          <h3 class="card-title"><a href="#" class="text-secondary">Exaltación del Tambor</a></h3>
+                          <p class="card-text">Cada año se celebra, en los dias previos a la Semana Santa, la Exaltacion Nacional del Tambor y del Bombo. Se realiza cada vez en uno de los 23 pueblos con esta tradicion. La del 2023 se ha realizado en Tobarra.</p>
+                          <a href="#" class="btn btn-primary">Saber más</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!----NEWSLETTER-->
+
+    <section id="newsletter" class="text-center p-5 bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Mantente en contacto con las novedades</h1>
+            <p>
+             Todo lo que quieras saber, lo puedes encontrar en nuestro newsletter. Solo tienes que subscribirte aqui abajo.
+            </p>
+            <form class="form-inline justify-content-center">
+              <input
+                type="text"
+                class="form-control mb-2 mr-2"
+                placeholder="Introduce nombre"
+              />
+              <input
+                type="text"
+                class="form-control mb-2 mr-2"
+                placeholder="Introduce E-mail"
+              />
+
+              <button class="btn btn-primary mb-2">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----FOOTER-->
+    <footer id="main-footer" class="text-center p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Copyright &copy; <span id="year"></span> JF Desing</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!---VIDEO MODAL-->
+    <div class="modal fade" id="videoModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+            <iframe
+              src=""
+              frameborder="0"
+              height="350"
+              width="100%"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

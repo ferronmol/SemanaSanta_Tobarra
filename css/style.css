@@ -1,0 +1,76 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem ;
+  padding-right: 1rem ;
+}
+
+.navbar .nav-item active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item .nav-item active{
+  height: 250px;
+  object-fit: cover;
+  background-size: cover;
+  
+}
+
+
+.ready {
+  position: relative;
+  min-height: 200px;
+  background-image: url("../assets/img/grandes/Tamborada_de_Tobarra.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.video {
+  position: relative;
+  min-height: 200px;
+  background-image: url("https://tobarramania.com/home/semana-santa-tobarra/semana-santa-2022/");
+  background-attachment: fixed;
+  background-position: 0 -300px;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+--galery--
+.video_d {
+  color: white;
+}
+.card-body{
+  max-height: 300px;
+}
+.card-img-top {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.card-title a:link {
+  font-size: 30px;
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
